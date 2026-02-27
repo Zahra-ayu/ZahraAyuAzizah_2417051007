@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="background-color: aliceblue; padding: 10px;">
+        <h2>Header</h2>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#section1">1</a>
+            <a href="#section2">2</a>
+            <a href="#">Home</a>
+        </nav>
+    </header>
+    <section id="section1" style="background-color: beige; height: 100vh;">
+        <article>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget sem vel nibh cursus tempor. Etiam ullamcorper, metus eget tincidunt sagittis, sapien urna semper augue, in faucibus turpis erat vitae felis. Ut lobortis consequat dolor sed mollis. Aliquam at augue mi. Donec maximus fringilla ipsum ac sagittis. Pellentesque vitae tellus tellus. Ut pharetra scelerisque ex sed ultricies. Nunc et ante leo. Sed cursus diam non ante iaculis mollis. Aliquam a varius felis. Sed venenatis arcu eu consectetur viverra. Fusce sit amet dapibus purus. Proin porta eget erat vitae convallis. Morbi tincidunt maximus gravida. Phasellus hendrerit eu est eu mattis.
+        </article>
+        <aside>
+            <detail>
+                <summary>
+                    Jurusan
+                </summary>
+                <ul>
+                    <li>Ilmu Komputer</li>
+                    <li>Teknik Informatika</li>
+                    <li>Sistem Informasi</li>
+                </ul>
+            </detail>
+        </aside>
+    </section>
+    <section id="section2" style="background-color: pink; height: 100vh;">
+        
+        <form action="#" method="get" target="_blank">
+            <fieldset style="background-color: rgb(255, 212, 220)";>
+                <label for="username">Nama : </label>
+                <input type="text" id="username" name="username">
+                <br><br>
+
+                <label for="npm">NPM : </label>
+                <input type="number" id="npm" name="npm">
+                <br><br>
+
+                <label for="email">Email : </label>
+                <input type="email" id="email" name="email">
+                <br><br>
+
+                <label for="password">Password : </label>
+                <input type="password" id="password" name="password">
+                <br><br>
+
+                <label for="jk">Jenis Kelamin</label><br>
+                <input type="radio" name="jk" id="pr">
+                <label for="pr">Perempuan</label><br>
+                <input type="radio" name="jk" id="lk">
+                <label for="lk">Laki-Laki</label>
+                <br><br>
+
+                <label for="">Hobi</label><br>
+                <input type="checkbox" id="hobi1" name="hobi[]" value="Membaca">
+                <label for="hobi1">Membaca</label><br>
+                <input type="checkbox" id="hobi2" name="hobi[]" value="Coding">
+                <label for="hobi2">Coding</label><br>
+                <input type="checkbox" id="hobi3" name="hobi[]" value="Menulis">
+                <label for="hobi3">Menulis</label><br><br>
+            </fieldset>
+
+            <label for="upload">Upload File</label>
+            <input type="file" name="upload" id="upload"><br><br>
+
+            <label for="tanggal">Tanggal</label>
+            <input type="date" nama="tanggal" id="tanggal"><br><br>
+
+            <label for="waktu">Waktu</label>
+            <input type="time" name="waktu" id="waktu"><br><br>
+        
+            <input type="hidden" name="role" id="Mahasiswa">
+            <input type="hidden" name="jurusan" id="Ilmu Komputer">
+
+            <label for="search">Cari Data</label>
+            <input type="search" id="search" name="search">
+
+            <button>submit</button>
+        </form>
+    </section>
+    <footer>Ilmu Komputer</footer>
+</body>
+</html>
